@@ -26,11 +26,11 @@ Hazardlight myHazard(IN1, IN2);
 ## Methods
 | Method | Params | Description
 | :----- | :---------- | :------
-|**on**|uint8_t mode| Light hazard light. 
+|**on**|uint8_t mode| Turn on hazard light. 
 |**off**|none| Turn off the hazard light.
-|**startFlashing**|unsigned long rate| Flash hazardlight for at a specified flash rate (use in main loop to create fake non-blocking multi-tasking -- uses millis).
-|**stopFlashing**|none| Stop a flashing hazardlight.
-|**flashFor**|unsigned long delay, unsigned long rate| Flash hazardlight for a time specified by delay and flash rate (use in main loop to create fake non-blocking multi-tasking -- uses millis).
-|**flashFor**|unsigned long delay, unsigned long rate, CallBackFunction callback| Flash hazardlight for a time specified by delay and flash rate, after flash execute the callback function.
-|**reset**|none| Used to re-enable hazardlight after the use of flashFor or startFlashing method.
+|**startFlashing**|unsigned long rate| Flash hazard light for at a specified flash rate (use in main loop to create fake non-blocking multi-tasking -- uses millis).
+|**stopFlashing**|none| Stop a flashing hazard light.
+|**flashFor**|unsigned long delay, unsigned long rate| Flash hazard light for a time specified by delay and flash rate (use in main loop to create fake non-blocking multi-tasking -- uses millis).
+|**flashFor**|unsigned long delay, unsigned long rate, CallBackFunction callback| Flash hazard light for a time specified by delay and flash rate, after flash execute the callback function.
+|**reset**|none| Used to re-enable hazard light after the use of flashFor or startFlashing method.
 |**isOn**|none| Returns a boolean indicating if hazard light is on or not.
