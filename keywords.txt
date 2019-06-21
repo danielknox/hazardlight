@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For L298N
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HazardLight	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+on	KEYWORD2
+off	KEYWORD2
+isOn	KEYWORD2
+startFlashing	KEYWORD2
+stopFlashing	KEYWORD2
+flashFor	KEYWORD2
+reset	KEYWORD2
+isFlashing	KEYWORD2
